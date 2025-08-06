@@ -151,7 +151,7 @@ graph TB
 
 1. **Download Complete Package**
    ```
-   📁 Download from: http://onedrive.com/?abc
+   📁 Download from: [https://1drv.ms/u/c/baacbba471937eec/EbjDFjPvWNhAp0hEhwqIRxgBBrxoNcMlSsAvPx_Wiell5g?e=xqdMP7](https://1drv.ms/u/c/baacbba471937eec/EbjDFjPvWNhAp0hEhwqIRxgBBrxoNcMlSsAvPx_Wiell5g?e=xqdMP7)
    📂 Extract to: C:/coding/gemma/
    ```
 
