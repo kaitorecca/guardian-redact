@@ -9,7 +9,7 @@
   
 **Built with ❤️ for Privacy & Security**
 
-[📚 Documentation](docs/) • [🐛 Quick Use(https://github.com/kaitorecca/guardian-redact/blob/main/README.md#-easy-setup-recommended)] 
+[📚 Documentation](docs/) • [🐛 Quick Use](https://github.com/kaitorecca/guardian-redact/blob/main/README.md#-easy-setup-recommended) 
 
 </div>
 
