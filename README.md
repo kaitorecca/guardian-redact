@@ -15,7 +15,7 @@
 
 **Your Private, Offline Redaction Suite**
 
-Guardian Redact is a privacy-first, on-device application that intelligently redacts sensitive information from documents and audio files. **Powered by Google's Gemma 3n model as its intelligent core**, Guardian Redact operates completely offline, ensuring your data never leaves your device. Every piece of content flows through Gemma 3n's advanced language understanding to identify and classify sensitive information with unprecedented accuracy.
+Different from other AI Redact that require uploading your files to cloud service, Guardian Redact is a privacy-first, on-device application that intelligently redacts sensitive information from documents and audio files. **Powered by Google's Gemma 3n model as its intelligent core**, Guardian Redact operates completely offline, ensuring your data never leaves your device. Every piece of content flows through Gemma 3n's advanced language understanding to identify and classify sensitive information with unprecedented accuracy.
 
 ---
 
