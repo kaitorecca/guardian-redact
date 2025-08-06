@@ -5,6 +5,14 @@
 [![React](https://img.shields.io/badge/Frontend-React%20%2B%20TypeScript-61DAFB)](https://reactjs.org/)
 [![Python](https://img.shields.io/badge/Backend-Python-3776AB)](https://www.python.org/)
 
+<div align="center">
+  
+**Built with ❤️ for Privacy & Security**
+
+[📚 Documentation](docs/) • [🐛 Report Bug](issues/) • [💡 Request Feature](issues/)
+
+</div>
+
 **Your Private, Offline Redaction Suite**
 
 Guardian Redact is a privacy-first, on-device application that intelligently redacts sensitive information from documents and audio files. **Powered by Google's Gemma 3n model as its intelligent core**, Guardian Redact operates completely offline, ensuring your data never leaves your device. Every piece of content flows through Gemma 3n's advanced language understanding to identify and classify sensitive information with unprecedented accuracy.
@@ -275,9 +283,6 @@ guardian-redact/
 # Start development server
 npm run tauri:dev
 
-# Run Python tests
-python -m pytest python-worker/tests/
-
 # Build for production
 npm run tauri:build
 
@@ -286,6 +291,30 @@ npm run lint
 ```
 
 ---
+
+## 🔮 Post-Hackathon Roadmap
+
+- **Enhanced PDF Integration**: Real react-pdf integration
+- **Advanced Face Detection**: Computer vision for image redaction  
+- **Fine-tuned Models**: Unsloth-optimized Gemma models
+- **Batch Processing**: Multiple document support
+- **Video Redaction**: Face blurring and audio anonymization
+- **App Store Distribution**: Mac App Store and Microsoft Store
+
+## 🏆 Hackathon Submission
+
+This project was created for the **Gemma 3n Impact Challenge** with a focus on:
+
+- **Impact & Vision**: Solving real privacy concerns for journalists, lawyers, and researchers
+- **Technical Depth**: Innovative use of offline-first AI with Gemma 3n
+- **User Experience**: Superior UX for slow AI tasks with real-time feedback
+
+## 🔒 Privacy & Security
+
+- **Offline First**: All processing happens locally on your device
+- **No Data Transmission**: Documents never uploaded to external servers  
+- **Open Source**: Full transparency in processing methods
+- **Local AI Models**: Gemma 3n runs entirely on your hardware
 
 ## 🤝 Contributing
 
@@ -342,6 +371,13 @@ We welcome contributions! Here's how to get started:
 
 ---
 
+## 📊 Project Status
+
+**Current Version:** v0.1.0 (MVP)  
+**Development Status:** Active Development  
+**Last Updated:** August 2025
+
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -357,152 +393,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **React Community** - For the robust frontend ecosystem
 
 ---
-
-## 📊 Project Status
-
-**Current Version:** v0.1.0 (MVP)  
-**Development Status:** Active Development  
-**Last Updated:** August 2025
-
-### Roadmap
-- 🔄 **v0.2.0** - Enhanced multi-language support
-- 🔄 **v0.3.0** - Batch processing capabilities  
-- 🔄 **v0.4.0** - Advanced image redaction features
-- 🔄 **v1.0.0** - Production-ready release
-
----
-
-<div align="center">
-  
-**Built with ❤️ for Privacy & Security**
-
-[📚 Documentation](docs/) • [🐛 Report Bug](issues/) • [💡 Request Feature](issues/)
-
-</div>
-
-- **100% Offline Processing**: Your documents never leave your device
-- **Intelligent Redaction**: Context-aware detection of sensitive information
-- **Multimodal Analysis**: Text, image, and simulated audio redaction
-- **Real-time Progress**: Page-by-page processing with live updates
-- **Professional UX**: Clean, modern interface built with shadcn/ui
-
-## 🛠️ Tech Stack
-
-- **Frontend**: React 18 + TypeScript + Vite
-- **UI Framework**: Tauri (Rust-based desktop app)
-- **UI Components**: shadcn/ui + Tailwind CSS
-- **State Management**: Zustand
-- **AI Backend**: Gemma 3n via Ollama
-- **PDF Processing**: PyMuPDF + PyPDF2
-- **Document Processing**: Python worker scripts
-
-## 🚀 Quick Start
-
-### Prerequisites
-
-1. **Node.js** (v18 or higher)
-2. **Rust** (for Tauri)
-3. **Python** (3.8 or higher)
-4. **Ollama** (for running Gemma models)
-
-### Installation
-
-1. **Clone and setup the project:**
-   ```bash
-   cd guardian-redact
-   npm install
-   ```
-
-2. **Install Python dependencies:**
-   ```bash
-   pip install -r python-worker/requirements.txt
-   ```
-
-3. **Install and run Ollama with Gemma 3n:**
-   ```bash
-   # Install Ollama from https://ollama.ai
-   ollama pull gemma3n
-   ```
-
-4. **Install Tauri CLI:**
-   ```bash
-   npm install -g @tauri-apps/cli
-   ```
-
-### Development
-
-```bash
-# Start the development server
-npm run tauri:dev
-```
-
-### Building
-
-```bash
-# Build for production
-npm run tauri:build
-```
-
-## 📋 Features Implemented (MVP)
-
-✅ **Core Features**
-- File selection and PDF upload
-- Two-speed processing (Quick/Deep analysis) 
-- Page-by-page processing with progress tracking
-- Mock redaction suggestions generation
-- Accept/reject redaction workflow
-- Export functionality (placeholder)
-
-✅ **UI/UX**
-- Modern, clean interface
-- Real-time progress indicators
-- Sidebar with suggestions
-- Status bar with processing info
-- Responsive layout
-
-✅ **Backend Architecture** 
-- Tauri-based Rust backend
-- Python worker scripts for AI processing
-- Gemma 3n integration via Ollama
-- PDF processing pipeline
-
-## 🔮 Post-Hackathon Roadmap
-
-- **Enhanced PDF Integration**: Real react-pdf integration
-- **Advanced Face Detection**: Computer vision for image redaction  
-- **Fine-tuned Models**: Unsloth-optimized Gemma models
-- **Batch Processing**: Multiple document support
-- **Video Redaction**: Face blurring and audio anonymization
-- **App Store Distribution**: Mac App Store and Microsoft Store
-
-## 🏆 Hackathon Submission
-
-This project was created for the **Gemma 3n Impact Challenge** with a focus on:
-
-- **Impact & Vision**: Solving real privacy concerns for journalists, lawyers, and researchers
-- **Technical Depth**: Innovative use of offline-first AI with Gemma 3n
-- **User Experience**: Superior UX for slow AI tasks with real-time feedback
-
-## 🔒 Privacy & Security
-
-- **Offline First**: All processing happens locally on your device
-- **No Data Transmission**: Documents never uploaded to external servers  
-- **Open Source**: Full transparency in processing methods
-- **Local AI Models**: Gemma 3n runs entirely on your hardware
-
-## 🧪 Demo Instructions
-
-1. Launch the application
-2. Select between "Quick Scan" or "Deep Analysis" 
-3. Upload a PDF document
-4. Watch real-time page-by-page processing
-5. Review and accept/reject redaction suggestions
-6. Export the redacted document
-
-## 📝 License
-
-MIT License - see LICENSE file for details
-
----
-
 **Guardian Redact** - Protecting Privacy Through Intelligent Offline Redaction
